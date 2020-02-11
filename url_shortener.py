@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+'''
+name: Amo James
+app: search_On_console
+twitter: @hackAfrique
+github: https://github.com/Amo95/
+'''
+
 # import libraries
 import urllib.request as req
 import sys
