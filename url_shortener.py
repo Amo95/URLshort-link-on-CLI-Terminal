@@ -4,7 +4,7 @@ import urllib.request as req
 # create function
 def shorturl(url):
     # set the api of a url shortner to a var
-    apiurl = ""
+    apiurl = "http://tinyurl.com/api-create.php?url="
     shorturl = req.urlopen(apiurl + url).read() #  append parameter to the api
     return shorturl.decode("utf-8")
 
