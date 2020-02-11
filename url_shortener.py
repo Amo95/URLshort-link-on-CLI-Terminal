@@ -4,6 +4,7 @@ name: Amo James
 app: search_On_console
 twitter: @hackAfrique
 github: https://github.com/Amo95/
+Linkedin: linkedin.com/in/james-amo-037531157
 '''
 
 # import libraries
