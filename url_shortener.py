@@ -10,7 +10,7 @@ try:
         return shorturl.decode("utf-8")
 
     inurl = input("Enter or paste url to shorten here >>> ")
-    BLUE, RED, WHITE, YELLOW, MAGENTA, GREEN, END = '\33[94m', '\033[91m', '\33[97m', '\33[93m', '\033[1;35m', '\033[1;32m', '\033[0m'
+    RED, END = '\033[91m', '\033[0m' # adding colors to style answers
 
     sys.stdout.write(f"\nYour short-linked URL is\n>>> {RED} {shorturl(inurl)} {END}\n")
 
